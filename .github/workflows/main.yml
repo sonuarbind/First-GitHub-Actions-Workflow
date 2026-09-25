@@ -1,8 +1,9 @@
 name: Arbind Kumar
 
-on: 
+on:
   push:
-   branches: [ main ] 
+    branches:
+      - main
 
 jobs:
   demo:
@@ -10,4 +11,4 @@ jobs:
 
     steps:
       - name: Greetings
-      run: echo "Hi Arbind !"
+        run: echo "Hi Arbind!"
